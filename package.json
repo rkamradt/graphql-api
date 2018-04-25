@@ -1,0 +1,15 @@
+{
+  "name": "graphql-api",
+  "description": "a simple graphql in-memory database API",
+  "license": "MIT",
+  "repository": "",
+  "scripts": {
+    "start": "micro index.js"
+  },
+  "dependencies": {
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "micro": "^9.2.0",
+    "micro-cors": "^0.1.0"
+  }
+}
