@@ -2,9 +2,9 @@
   "name": "graphql-api",
   "description": "a simple graphql in-memory database API",
   "license": "MIT",
-  "repository": "",
+  "repository": "git@github.com:rkamradt/graphql-api.git",
   "scripts": {
-    "start": "micro index.js"
+    "start": "node_modules/micro/bin/micro.js index.js"
   },
   "dependencies": {
     "express-graphql": "^0.6.12",
